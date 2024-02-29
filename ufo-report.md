@@ -14,12 +14,23 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 
 
 # Data Exploration
-The table contains 28,014 records and 17 variables.
+There are 88,876 records and 11 variables.
 
 ## Variable Descriptions
-| Variable           | Datatype | Description |
-| :---               | :---     | :--- |
-| timestamp          | datetime | a unique string automatically assigned to each new record
+|Variable|Datatype|Description|
+|:---|:---|:---|
+|datetime|datetime|time of sighting|
+|city|string|entered by the user|
+|state|string|entered by the user|
+|country|string|entered by the user|
+|shape|string|entered by the user|
+|duration (seconds)|integer|entered by the user|
+|duration (hours/min)|string|entered by the user|
+|comments|string|entered by the user|
+|date posted|datetime|entered by the user|
+|latitude|datetime|decimal|
+|longitude|datetime|decimal|
+
 
 ## Nulls and Unique Values
 | Variable           | Null     | Unique  |
