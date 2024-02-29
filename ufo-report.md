@@ -1,6 +1,17 @@
 # Introduction
+I will analyze the data to answer the following questions about UFO sightings:
+1. Do they occur more in the daytime or nightime?
+2. Is it seasonal?
+3. Are there trends over time?
+4. What are the most common UFO descriptions? 
+5. Where are the hotspots?
+6. Are there certain landmarks that are hotspots, such as airports or government research centers? 
 
 # Data Source
+The sightings are from the National UFO Reporting Center (NUFORC) which was acquired by Sigmond Axel and can be found at https://github.com/planetsig/ufo-reports. I downloaded it as a .csv file.  
+
+NUFORC allows the use of the data for non-commericial uses. There is a caveat on the website that states: "The National UFO Reporting Center makes no claims as to the validity of the information in any of these reports. Obvious hoaxes have been omitted, however most reports have been posted exactly as received in the author’s own words." The NUFORC website address is https://nuforc.org/.
+
 
 # Data Exploration
 The table contains 28,014 records and 17 variables.
