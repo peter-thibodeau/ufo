@@ -42,9 +42,10 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 
 Other tasks required for cleaning the data are:  
 - Remove leading and trailing spaces.
-- Remove punctuation marks in city.
 - Change strings to upper case to simplify SQL queries.
 - Remove duplicate records.
+- Remove punctuation marks in city.
+- Remove records where shape is null because shape is need for describing the UFO
 
 Locations 
 - Remove records where city and country are null AND latitude and longitude equal zero because there is not enough information.
