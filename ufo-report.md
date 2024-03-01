@@ -42,13 +42,14 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 
 Other tasks required for cleaning the data are:  
 - Remove leading and trailing spaces.
-- Remove punctuation marks.
+- Remove punctuation marks in city.
+- Change strings to upper case to simplify SQL queries.
 - Remove duplicate records.
-- Change city, state, country, and shape variables to upper case to simplify SQL queries.
 
 Locations 
-- Remove records where latitude and longitude values equal zero
-- Where country variable is null, extract it from city where possible.
+- Remove records where city and country are null AND latitude and longitude equal zero because there is not enough information.
+- Remove city records with strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, observed from airplane
+
 
 ## Filtering
 **Age**  
