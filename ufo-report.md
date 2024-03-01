@@ -15,6 +15,7 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 
 # Data Exploration
 There are 88,876 records and 11 variables.
+All variables are useable but some need extensive cleaning.
 
 ## Variable Descriptions
 |Variable|Datatype|Description|Nulls|
@@ -30,21 +31,6 @@ There are 88,876 records and 11 variables.
 |date posted|datetime|entered by the user|0|
 |latitude|datetime|decimal|0|
 |longitude|datetime|decimal|0|
-
-## Variable Handling
-|Variable|Note|Omit|
-|:---|:---|:---|
-|datetime|||
-|city|||
-|state|||
-|country|||
-|shape|||
-|duration (seconds)|||
-|duration (hours/min)|||
-|comments|||
-|date posted|||
-|latitude|||
-|longitude|||
 
 # Data Cleaning
 Variable names duration (seconds), duration (hours/min), and date posted are unrecognized when performing SQL queries. The names duration (seconds) and duration (hours/min) were changed to duration_sec, duration_hour_min, and date_posted.
