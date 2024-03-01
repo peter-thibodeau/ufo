@@ -17,8 +17,8 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 There are 88,876 records and 11 variables.
 
 ## Variable Descriptions
-|Variable|Datatype|Description|
-|:---|:---|:---|
+|Variable|Datatype|Description|Nulls|
+|:---|:---|:---|:---|
 |datetime|datetime|time of sighting|
 |city|string|entered by the user|
 |state|string|entered by the user|
