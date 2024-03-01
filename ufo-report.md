@@ -19,11 +19,11 @@ There are 88,876 records and 11 variables.
 ## Variable Descriptions
 |Variable|Datatype|Description|Nulls|
 |:---|:---|:---|:---|
-|datetime|datetime|time of sighting|
-|city|string|entered by the user|
-|state|string|entered by the user|
-|country|string|entered by the user|
-|shape|string|entered by the user|
+|datetime|datetime|time of sighting|0|
+|city|string|entered by the user|0|
+|state|string|entered by the user|7,409|
+|country|string|entered by the user|12,365|
+|shape|string|entered by the user|2,922|
 |duration (seconds)|integer|entered by the user|
 |duration (hours/min)|string|entered by the user|
 |comments|string|entered by the user|
@@ -45,6 +45,7 @@ There are 88,876 records and 11 variables.
 | age                | not relevant to analysis                  | Omit|
 
 # Data Cleaning
+Variable names duration (seconds) and duration (hours/min) are unrecognized when performing SQL queries. The names duration (seconds) and duration (hours/min) were changed to duration_seconds and duration_hours_min.
 - Remove leading and trailing spaces.
 - Remove duplicate records.
 - Remove null values in industry, education, gender, and race variables.
