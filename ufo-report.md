@@ -27,9 +27,9 @@ There are 88,876 records and 11 variables.
 |duration (seconds)|integer|entered by the user|2|
 |duration (hours/min)|string|entered by the user|3,017
 |comments|string|entered by the user|35|
-|date posted|datetime|entered by the user|
-|latitude|datetime|decimal|
-|longitude|datetime|decimal|
+|date posted|datetime|entered by the user|0|
+|latitude|datetime|decimal|0|
+|longitude|datetime|decimal|0|
 
 
 ## Nulls and Unique Values
