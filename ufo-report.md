@@ -24,9 +24,9 @@ There are 88,876 records and 11 variables.
 |state|string|entered by the user|7,409|
 |country|string|entered by the user|12,365|
 |shape|string|entered by the user|2,922|
-|duration (seconds)|integer|entered by the user|
-|duration (hours/min)|string|entered by the user|
-|comments|string|entered by the user|
+|duration (seconds)|integer|entered by the user|2|
+|duration (hours/min)|string|entered by the user|3,017
+|comments|string|entered by the user|35|
 |date posted|datetime|entered by the user|
 |latitude|datetime|decimal|
 |longitude|datetime|decimal|
@@ -45,7 +45,7 @@ There are 88,876 records and 11 variables.
 | age                | not relevant to analysis                  | Omit|
 
 # Data Cleaning
-Variable names duration (seconds) and duration (hours/min) are unrecognized when performing SQL queries. The names duration (seconds) and duration (hours/min) were changed to duration_seconds and duration_hours_min.
+Variable names duration (seconds), duration (hours/min), and date posted are unrecognized when performing SQL queries. The names duration (seconds) and duration (hours/min) were changed to duration_sec, duration_hour_min, and date_posted.
 - Remove leading and trailing spaces.
 - Remove duplicate records.
 - Remove null values in industry, education, gender, and race variables.
