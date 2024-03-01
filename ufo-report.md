@@ -42,10 +42,10 @@ Other tasks required for cleaning the data are:
 - Remove leading and trailing spaces.
 - Remove punctuation marks.
 - Remove duplicate records.
+- Change city, state, country, and shape variables to upper case to simplify SQL queries.
 
 Locations 
 - Remove records where latitude and longitude values equal zero
-- Change strings to upper case to simplify SQL queries.
 - Where country variable is null, extract it from city where possible.
 
 ## Filtering
