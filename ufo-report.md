@@ -4,14 +4,12 @@ I will analyze the data to answer the following questions about UFO sightings:
 2. Is it seasonal?
 3. Are there trends over time?
 4. What are the most common UFO descriptions? 
-5. Where are the hotspots?
-6. Are there certain landmarks that are hotspots, such as airports or government research centers? 
+5. Where are the hotspots? Are they near landmarks, such as airports or government research centers? 
 
 # Data Source
 The sightings are from the National UFO Reporting Center (NUFORC) which was acquired by Sigmond Axel and can be found at https://github.com/planetsig/ufo-reports. I downloaded it as a .csv file.  
 
 NUFORC allows the use of the data for non-commericial uses. There is a caveat on the website that states: "The National UFO Reporting Center makes no claims as to the validity of the information in any of these reports. Obvious hoaxes have been omitted, however most reports have been posted exactly as received in the author’s own words." The NUFORC website address is https://nuforc.org/.
-
 
 # Data Exploration
 There are 88,876 records and 11 variables. All variables are useable but some need extensive cleaning.
@@ -32,13 +30,23 @@ There are 88,876 records and 11 variables. All variables are useable but some ne
 |longitude|datetime|decimal|0|
 
 # Data Cleaning
-Variable names duration (seconds), duration (hours/min), and date posted are unrecognized when performing SQL queries. The names duration (seconds) and duration (hours/min) were changed to duration_sec, duration_hour_min, and date_posted.
+Several variable names are unrecognizable by SQL and have to be changed as shown in the following table:
+
+|Variable|New name|
+|:---|:---|
+|duration (seconds|duration_sec|
+|duration (hours/min)|duration_hour_min|
+|date posted|date_posted|
+
+Other tasks required for cleaning the data are:  
 - Remove leading and trailing spaces.
-- Remove duplicate records.
-- Remove null values in industry, education, gender, and race variables.
-- Change strings to upper case.
 - Remove punctuation marks.
-- Change the datatype of annual_salary to an integer.
+- Remove duplicate records.
+
+Locations 
+- Remove records where latitude and longitude values equal zero
+- Change strings to upper case to simplify SQL queries.
+- Where country variable is null, extract it from city where possible.
 
 ## Filtering
 **Age**  
