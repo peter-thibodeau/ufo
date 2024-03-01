@@ -14,8 +14,7 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 
 
 # Data Exploration
-There are 88,876 records and 11 variables.
-All variables are useable but some need extensive cleaning.
+There are 88,876 records and 11 variables. All variables are useable but some need extensive cleaning.
 
 ## Variable Descriptions
 |Variable|Datatype|Description|Nulls|
