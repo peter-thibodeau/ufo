@@ -32,19 +32,19 @@ There are 88,876 records and 11 variables.
 |longitude|datetime|decimal|0|
 
 ## Variable Handling
-| Variable| Datatype | Description |
+|Variable|Note|Omit|
 |:---|:---|:---|
-|datetime|datetime|time of sighting, entered by user|
-|city|string|entered by the user|
-|state|string|entered by the user|
-|country|string|entered by the user|
-|shape|string|entered by the user|
-|duration (seconds)|integer|entered by the user|
-|duration (hours/min)|string|entered by the user|
-|comments|string|entered by the user|
-|date posted|datetime|entered by the user|
-|latitude|datetime|decimal|
-|longitude|datetime|decimal|
+|datetime|||
+|city|||
+|state|||
+|country|||
+|shape|||
+|duration (seconds)|||
+|duration (hours/min)|||
+|comments|||
+|date posted|||
+|latitude|||
+|longitude|||
 
 # Data Cleaning
 Variable names duration (seconds), duration (hours/min), and date posted are unrecognized when performing SQL queries. The names duration (seconds) and duration (hours/min) were changed to duration_sec, duration_hour_min, and date_posted.
