@@ -47,10 +47,10 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Remove punctuation marks in city.
 
 ## Filtering
-- City records with strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane and will be removed.
-- City records that hold only the name of a state will be removed.
+- City strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane and will be removed.
+- City strings that hold only the name of a state or country will be removed because they are to vague.
 - Records where city and country are null don't hold enough information to determine a location and will be removed.
-- There are 22,017 unique city values those that are less than 5% of total will be removed to keep plotting manageable.
+- There are 22,017 unique city values, those that are less than 5% of total will be removed to keep plotting manageable.
 - Remove records where shape is null because shape is need for describing the UFO.
 - Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
