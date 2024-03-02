@@ -41,19 +41,19 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 |duration (hours/min)|duration_hour_min|
 |date posted|date_posted|
 
-√- Remove leading and trailing spaces.
-√- Change strings to upper case to simplify SQL queries.
-√- Remove duplicate records.
-√- Remove punctuation marks in city.
-√- Revove datetime strings that are less that 10 characters in length.
+- Remove leading and trailing spaces.
+- Change strings to upper case to simplify SQL queries.
+- Remove duplicate records.
+- Remove punctuation marks in city.
+- Revove datetime strings that are less that 10 characters in length.
 
 ## Filtering
-√- City strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane and will be removed.
-√- City strings that hold only the name of a state or country will be removed because they are to vague.
-√- Records where city and country are null don't hold enough information to determine a location and will be removed.
-√- Remove records where shape is null because shape is need for describing the UFO.
-√- Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
-- delete records without states because can get country from city and state but leaves out 7,409 records but necessary because there are 22,000 missing country codes but leaves 17000 unique values
+- City strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane and will be removed.
+- City strings that hold only the name of a state or country will be removed because they are to vague.
+- Records where city and country are null don't hold enough information to determine a location and will be removed.
+- Remove records where shape is null because shape is need for describing the UFO.
+- Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
+- There are 12,365 missing country values and 7,409 missing state values, but one or the other is required to determine location, records with missing country values will be removed.
 
 ## New Variables
 - Add country code where missing if country name is in city string.
