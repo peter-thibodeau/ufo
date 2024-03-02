@@ -17,19 +17,21 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 - There are 9 duplicate records.
 
 ## Variable Descriptions
-|Variable|Datatype|Description|Nulls|
-|:---|:---|:---|:---|
+|Variable|Datatype|Description|Nulls|Notes|
+|:---|:---|:---|:---|:--|
 |datetime|datetime|time of sighting, entered by user|0|
 |city|string|entered by the user|0|
-|state|string|entered by the user|7,409|
-|country|string|entered by the user|12,365|
-|shape|string|entered by the user|2,922|
+|state|string|entered by the user|7,409|too many nulls to be useful|
+|country|string|entered by the user|12,365|6 country codes|
+|shape|string|entered by the user|2,922|29 shapes|
 |duration (seconds)|integer|entered by the user|2|
 |duration (hours/min)|string|entered by the user|3,017
 |comments|string|entered by the user|35|
 |date posted|datetime|entered by the user|0|
-|latitude|datetime|decimal|0|
-|longitude|datetime|decimal|0|
+|latitude|datetime|decimal|0|note 1|
+|longitude|datetime|decimal|0|note 1|
+
+Note 1: zero latitude and longitude is located in the middle of the Indian Ocean and not useful.
 
 # Data Cleaning
 Several variable names are unrecognizable by SQL and have to be changed as shown in the following table:
@@ -40,22 +42,17 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 |duration (hours/min)|duration_hour_min|
 |date posted|date_posted|
 
-Other tasks required for cleaning the data are:  
 - Remove leading and trailing spaces.
 - Change strings to upper case to simplify SQL queries.
 - Remove duplicate records.
 - Remove punctuation marks in city.
-- Remove records where shape is null because shape is need for describing the UFO
-
-Locations 
-- Remove records where city and country are null AND latitude and longitude equal zero because there is not enough information to determine a location.
-- Remove city records with strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane.
-- Add country code where missing if country name is in city string.
-
 
 ## Filtering
-**Age**  
-The age for earning an annual salary can be assumed to apply only to adults, so remove records 
+- City records with strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane and will be removed.
+- City records that hold only the name of a state will be removed.
+- Records where city and country are null don't hold enough information to determine a location and will be removed.
+- Remove records where shape is null because shape is need for describing the UFO
+- Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
 ## New Variables
-Records with a currency other than U.S. dollars must be converted to U.S. dollars for a 
+- Add country code where missing if country name is in city string.
