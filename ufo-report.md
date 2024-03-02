@@ -53,6 +53,9 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Records where city and country are null don't hold enough information to determine a location and will be removed.
 - Remove records where shape is null because shape is need for describing the UFO.
 - Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
+
+# Answering questions
+- State codes include provinces and departments of foreign countries. Map those to missing country codes.
 - There are 12,365 missing country values and 7,409 missing state values, but one or the other is required to determine location, records with missing country values will be removed.
 
 ## New Variables
