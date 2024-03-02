@@ -55,14 +55,5 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 - There are 12,365 missing country values and 7,409 missing state values, but one or the other is required to determine location, records with missing country values will be removed.
 
-
-Do they occur more in the daytime or nightime?
-Is it seasonal?
-Are there trends over time?
-What are the most common UFO descriptions?
-Where are the hotspots? Are they near landmarks, such as airports or government research centers?
-
-
-
 ## New Variables
 - Add country code where missing if country name is in city string.
