@@ -48,8 +48,9 @@ Other tasks required for cleaning the data are:
 - Remove records where shape is null because shape is need for describing the UFO
 
 Locations 
-- Remove records where city and country are null AND latitude and longitude equal zero because there is not enough information.
-- Remove city records with strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, observed from airplane
+- Remove records where city and country are null AND latitude and longitude equal zero because there is not enough information to determine a location.
+- Remove city records with strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane.
+- Add country code where missing if country name is in city string.
 
 
 ## Filtering
