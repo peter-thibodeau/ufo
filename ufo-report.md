@@ -18,7 +18,7 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 ## Variable Descriptions
 |Variable|Datatype|Description|Nulls|Notes|
 |:---|:---|:---|:---|:--|
-|datetime|datetime|time of sighting, entered by user|0||
+|datetime|datetime|time of sighting, entered by user|0|1,207 have less than 10 chars which is NG|
 |city|string|entered by the user|0|22,017 unique cities|
 |state|string|entered by the user|7,409||
 |country|string|entered by the user|12,365|6 unique countries|
@@ -45,12 +45,13 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Change strings to upper case to simplify SQL queries.
 - Remove duplicate records.
 - Remove punctuation marks in city.
+- Revove datetime strings that are less that 10 characters in length.
 
 ## Filtering
 - City strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane and will be removed.
 - City strings that hold only the name of a state or country will be removed because they are to vague.
 - Records where city and country are null don't hold enough information to determine a location and will be removed.
-- There are 22,017 unique city values, those that are less than 5% of total will be removed to keep plotting manageable.
+- There are 22,017 unique city values, those that are less than 5% of total (4,444), will be removed to keep plotting manageable.
 - Remove records where shape is null because shape is need for describing the UFO.
 - Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
