@@ -30,7 +30,7 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 |latitude|datetime|decimal|0|note 1|
 |longitude|datetime|decimal|0|note 1|
 
-Note 1: zero latitude and longitude is located in the middle of the Indian Ocean and therefor not useful.
+Note 1: there are 1,494 records where latitude and longitude both equal zero, that location is in the middle of the Indian Ocean and therefore not useful.
 
 # Data Cleaning
 Several variable names are unrecognizable by SQL and have to be changed as shown in the following table:
