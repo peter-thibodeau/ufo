@@ -19,13 +19,13 @@ NUFORC allows the use of the data for non-commericial uses. There is a caveat on
 |Variable|Datatype|Description|Nulls|Notes|
 |:---|:---|:---|:---|:--|
 |datetime|datetime|time of sighting, entered by user|0|1,207 have less than 10 chars which is NG|
-|city|string|entered by the user|0|22,017 unique cities|
-|state|string|entered by the user|7,409||
-|country|string|entered by the user|12,365|6 unique countries|
-|shape|string|entered by the user|2,922|29 unique shapes|
+|city|varchar|entered by the user|0|22,017 unique cities|
+|state|varchar|entered by the user|7,409||
+|country|varchar|entered by the user|12,365|6 unique countries|
+|shape|varchar|entered by the user|2,922|29 unique shapes|
 |duration (seconds)|integer|entered by the user|2||
-|duration (hours/min)|string|entered by the user|3,017||
-|comments|string|entered by the user|35||
+|duration (hours/min)|varchar|entered by the user|3,017||
+|comments|varchar|entered by the user|35||
 |date posted|datetime|entered by the user|0||
 |latitude|datetime|decimal|0|note 1|
 |longitude|datetime|decimal|0|note 1|
