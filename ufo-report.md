@@ -56,10 +56,6 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Remove records where shape value is null, unknown, changed, or other.
 - Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
-# Answering questions
-- State codes include provinces and departments of foreign countries. Map those to missing country codes.
-- There are 12,365 missing country values and 7,409 missing state values, but one or the other is required to determine location, records with missing country values will be removed.
-
 ## New Variables
 - rpt_date: date of sighting
 - rpt_time: time of sighting 
