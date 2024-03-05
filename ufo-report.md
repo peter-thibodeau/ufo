@@ -46,6 +46,8 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Remove duplicate records.
 - Remove punctuation marks in city.
 - Revove datetime strings that are less that 10 characters in length.
+- Extract date from datetime.
+- Extract time from datetime.
 
 ## Filtering
 - City strings that contain location unspecified, unspecified location, unspecified, not specified, deleted, unknown, above, a field, hoax, airplane, and plane and will be removed.
@@ -59,4 +61,5 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - There are 12,365 missing country values and 7,409 missing state values, but one or the other is required to determine location, records with missing country values will be removed.
 
 ## New Variables
-- Add country code where missing if country name is in city string.
+- rpt_date: for date of sighting
+- rpt_time: fro time of sighting 
