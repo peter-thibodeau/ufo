@@ -61,5 +61,5 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - There are 12,365 missing country values and 7,409 missing state values, but one or the other is required to determine location, records with missing country values will be removed.
 
 ## New Variables
-- rpt_date: for date of sighting
-- rpt_time: fro time of sighting 
+- rpt_date: date of sighting
+- rpt_time: time of sighting 
