@@ -1,10 +1,9 @@
 # Introduction
 I will analyze the data to answer the following questions about UFO sightings:
 1. Do they occur more in the daytime or nightime?
-2. Is it seasonal?
-3. Are there trends over time?
-4. What are the most common UFO descriptions? 
-5. Where are the hotspots? Are they near landmarks, such as airports or government research centers? 
+2. Are there trends over time?
+3. What are the most common UFO descriptions?
+4. Where are the hotspots?
 
 # Data Source
 The sightings are from the National UFO Reporting Center (NUFORC) which was acquired by Sigmond Axel and can be found at https://github.com/planetsig/ufo-reports. I downloaded it as a .csv file.  
@@ -57,5 +56,6 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
 ## New Variables
+Required to separate the data from the time of the sightings.
 - rpt_date: date of sighting
 - rpt_time: time of sighting 
