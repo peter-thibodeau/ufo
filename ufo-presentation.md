@@ -11,22 +11,14 @@ Are there trends over time?
 <img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/3cd5bb48-ac2e-4b86-944a-23de8bdd44ac">
 <img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/dff0d95b-06d5-45bc-9534-7777bc34f9b6">
 
+What are the most common UFO descriptions?  
+UFOs frequently appear as a light or fireball, but the ship can be also be seen as having triangular or round shape.
+<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/ebdb6f81-84b7-4ff3-8662-86073f165c37">
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-What are the most common UFO descriptions?
 Where are the hotspots?
+<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/fa549c45-03c7-42db-a026-02dcec0591bf">
 
 
 Observations
