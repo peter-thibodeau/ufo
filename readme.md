@@ -1,1 +1,1 @@
-UFO is a practice data analysis I did to strengthen my skillset. The ufo-report.md describes the source, description, and cleaning of the data. The ufo-presentation.md  contains plots, observations and my conclusion of the anaylsis.
+UFO is a practice data analysis I did to strengthen my skillset. The file ufo-report.md describes the source, description, and cleaning of the data. The file ufo-presentation.md  contains plots, observations and my conclusion of the anaylsis.
