@@ -53,10 +53,6 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - City strings that hold only the name of a state or country will be removed because they are to vague.
 - Records where city and country are null don't hold enough information to determine a location and will be removed.
 - Remove records where shape value is null, unknown, changed, or other.
-- Rename shape values circle, cylinder, sphere and disk to ROUND
-- Rename shape values cigar and teardrop to oval
-- Rename shape value delta to triangle
-- Rename shape values fireball, flare and flash to light
 - Values of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
 ## New Variables
