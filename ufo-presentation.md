@@ -8,12 +8,8 @@ Are there trends over time?
 <img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/812553a9-d5a2-45cd-93ff-d53062469565">
 <img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/5d192024-698f-4ad6-ab37-1196d370a3c8">
 
-
-
-
-
-
-
+<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/3cd5bb48-ac2e-4b86-944a-23de8bdd44ac">
+<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/dff0d95b-06d5-45bc-9534-7777bc34f9b6">
 
 
 
