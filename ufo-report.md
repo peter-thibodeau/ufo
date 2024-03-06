@@ -60,6 +60,5 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
 ## New Variables
-Required to separate the data from the time of the sightings.
-- rpt_date: date of sighting
-- rpt_time: time of sighting 
+Two variables named rpt_date and rpt_time will hold dates and times extracted from datetime.
+
