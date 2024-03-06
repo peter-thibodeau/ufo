@@ -1,1 +1,1 @@
-UFO is a practice data analysis I did to strengthen my skillset. The report file covers the data source, data description, and cleaning steps I took. The presentation file includes plots I made in Tableau.
+UFO is a practice data analysis I did to strengthen my skillset. The ufo-report.md describes the source, description, and cleaning of the data. The ufo-presentation.md  contains plots, observations and the conclusions of the analysis.
