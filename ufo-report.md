@@ -57,7 +57,7 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Rename shape values cigar and teardrop to oval
 - Rename shape value delta to triangle
 - Rename shape values fireball, flare and flash to light
-- Vales of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
+- Values of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
 
 ## New Variables
 Two variables named rpt_date and rpt_time will hold dates and times extracted from datetime.
