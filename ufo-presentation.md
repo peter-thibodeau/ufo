@@ -1,15 +1,15 @@
 # UFOs
-<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/593ad385-f7fb-4c85-a363-37f706363513">
+<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/4ba0aad9-f538-4bd9-95a2-34c17c1ead13">
 <br><br>
 
 ### Descriptions
-<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/ebdb6f81-84b7-4ff3-8662-86073f165c37">
+<img width="1000" alt="image" src="">
 <br><br>
 
 ### Hotspots
-<img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/fa549c45-03c7-42db-a026-02dcec0591bf">
+<img width="1000" alt="image" src="">
 <br><br>
-<img width="500" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/1d5de82a-1793-4d52-9f5f-87d6e6bd1074">
+<img width="500" alt="image" src="">
 
 # Observations
 1. UFOs frequently appear as a light or fireball, but the ship can be also be seen as having triangular or round shape.
