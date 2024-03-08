@@ -54,7 +54,8 @@ Several variable names are unrecognizable by SQL and have to be changed as shown
 - Records where city and country are null don't hold enough information to determine a location and will be removed.
 - Remove records where shape value is null, unknown, changed, or other.
 - Values of zero latitude and zero longitude are located in the middle of the Indian Ocean and will be removed.
-- Records of sightings outside the United States are 10% of total sightings and will be excluded.
+- Records of sightings outside the United States are 10% of total sightings, and will be excluded. Those records can be used in a new analysis concerning sightings in foreign countries.
+  
   <img width="1000" alt="image" src="https://github.com/peter-thibodeau/ufo/assets/158618486/0afdcbcf-1654-41b4-8593-9673fe261197">
 
 ## New Variables
